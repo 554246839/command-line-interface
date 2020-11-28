@@ -8,7 +8,9 @@ npm init
 
 ### step2
 新建bin文件，用于定义cli命令列表
-#!/usr/bin/env node： 表示该文件以node环境执行
+```js
+#!/usr/bin/env node // 表示该文件以node环境执行
+```
 
 ### step3
 在package.json文件中添加bin命令
