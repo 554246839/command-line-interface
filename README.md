@@ -27,3 +27,17 @@ npm init
 
 ### step5
 新建lib文件用于定义bin文件内命令的具体执行逻辑
+
+### step6
+最后就可以在任何地方使用testcli命令
+```js
+testcli
+
+// or
+testcli init test
+
+// or
+testcli -V
+
+// ...
+```
